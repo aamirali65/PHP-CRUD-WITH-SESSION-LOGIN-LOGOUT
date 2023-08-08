@@ -20,8 +20,8 @@ This is a simple PHP application that demonstrates a CRUD (Create, Read, Update,
  .Import the provided crud.sql file to set up the required tables.
 
 3. Update Database Configuration:
- .Open config.php and update the database connection settings:
- .$connection =  mysqli_connect("localhost","root","","crud");
+ .Open connection.php and update the database connection settings:
+    $connection =  mysqli_connect("localhost","root","","crud");
 
 4. Run the Application:
 
